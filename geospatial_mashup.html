@@ -32,7 +32,7 @@
             color: '#FF1493', fillColor: '#FFC0CB',
             fillOpacity: 0.5, radius: 500
         }).addTo(mymap);
-        circle.bindPopup('Radius 200 m dari titik ini.');
+        circle.bindPopup('Radius 500 m dari Times Square.');
         // --- Polygon (Objek Area) ---
         var polygon = L.polygon([
             [40.80065300397213, -73.95816365183715],
@@ -42,7 +42,7 @@
             [40.80065300397213, -73.95816365183715]
         ], { color: '#2E8B58', fillColor: '#00FF7F', fillOpacity: 0.3 })
             .addTo(mymap);
-        polygon.bindPopup('Area Kawasan A');
+        polygon.bindPopup('Area Kawasan Central Park');
         // --- Polyline (Objek Garis) ---
         var polyline = L.polyline([
             [40.7580, -73.9855],  // Times Square
@@ -54,7 +54,7 @@
             [40.709364230974614, -73.99184172090087] 
         ], { color: '#FF0000', weight: 3, opacity: 0.8 })
             .addTo(mymap);
-        polyline.bindPopup('Jalur A');
+        polyline.bindPopup('Jalur menuju Manhattan Bridge');
     </script>
 </body>
 
